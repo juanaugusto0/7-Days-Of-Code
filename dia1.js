@@ -1,14 +1,27 @@
-let num1 = 1;
-let str1 = '1';
-let num30 = 30;
-let str30 = '30';
-let num10 = 10;
-let str10 = '10';
+let listaDeComparacoes = [1,'1',30,'30',10,'10'];
+let i;
+let tipos;
 
-
-if (num1!==str1) {
-    console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes');
-}else {
-    console.log('As variáveis numeroDez e stringDez não tem o mesmo valor');
+function checkType (x) {
+    typeof x;
 }
 
+function checkTypeList () {
+    for (i=0 ; i <= 5 ; i++) {
+       tipos = [checkType (listaDeComparacoes[i])];
+    }
+}
+console.log (tipos[0])
+if (listaDeComparacoes[0]==listaDeComparacoes[1]){
+    if (tipos[0]==tipos[1]){
+        console.log ('O número e o tipo são iguais')
+    }else {
+        console.log ('O número é igual mas o tipo é diferente')
+    }
+}else {
+    if (tipos[0]==tipos[1]){
+        console.log ('O número é diferente mas o tipo é igual')
+    }else {
+        console.log ('O número e o tipos são diferentes')
+    }
+}
