@@ -6,6 +6,16 @@
 
 ```
 
-Resultado: Feito
+Status: Feito
+
+```
+
+> Dia: 2
+
+<h2>Variáveis</h2>
+
+```
+
+Status: Em andamento
 
 ```
