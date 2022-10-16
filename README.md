@@ -16,6 +16,16 @@ Status: Feito
 
 ```
 
-Status: Em andamento
+Status: Feito
+
+```
+
+> Dia: 3
+
+<h2>Fluxo de decisão
+
+```
+
+Status: Em Andamento
 
 ```
