@@ -30,7 +30,7 @@ Status: Feito
 
 ```
 
-> Dia: 3
+> Dia: 4
 
 <h2>Mais loops e randomização </h2>
 
