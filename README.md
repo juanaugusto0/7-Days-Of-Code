@@ -22,10 +22,20 @@ Status: Feito
 
 > Dia: 3
 
-<h2>Fluxo de decisão
+<h2>Fluxo de decisão </h2>
 
 ```
 
-Status: Em Andamento
+Status: Feito
+
+```
+
+> Dia: 3
+
+<h2>Mais loops e randomização </h2>
+
+```
+
+Status: Feito
 
 ```
