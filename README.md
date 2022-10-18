@@ -39,3 +39,13 @@ Status: Feito
 Status: Feito
 
 ```
+
+> Dia: 5
+
+<h2>Arrays e coleções </h2>
+
+```
+
+Status: Em andamento
+
+```
