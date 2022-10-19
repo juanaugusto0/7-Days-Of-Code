@@ -48,3 +48,13 @@ Status: Feito
 
 Status: Feito
 ```
+
+> Dia: 5
+
+<h2>Remoção de arrays </h2>
+
+```
+
+Status: Em andamento
+
+```
