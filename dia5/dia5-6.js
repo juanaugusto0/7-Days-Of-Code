@@ -2,28 +2,6 @@ let frutas = [];
 let laticinios = [];
 let doces = [];
 
-function removerItens () {
-	var negacao = confirm ("Você quer remover algum item?")
-	if (negacao) {
-		const remocao = prompt ("Diga qual item você quer remover")
-		let indexArray;
-		if (frutas.indexOf(remocao) != -1) {
-			indexArray = frutas.indexOf(remocao);
-			frutas.splice(indexArray,indexArray);
-		}
-		if (laticinios.indexOf(remocao) != -1) {
-			indexArray = laticinios.indexOf(remocao);
-			laticinios.splice(indexArray,indexArray);
-		}
-		if (doces.indexOf(remocao) != -1) {
-			indexArray = doces.indexOf(remocao);
-			doces.splice(indexArray,indexArray);
-		}else {
-			alert ("Valor não encontrado");
-		}
-	}
-}
-
 for (let index = 0; index < 999; index++) {
 	const addItens = prompt ("Que item você quer adicionar?");
 	const addCategorias = prompt ("Digite a categoria na qual você quer encaixar o item, 1 para frutas, 2 para laticinios e 3 para congelados");
@@ -41,6 +19,30 @@ for (let index = 0; index < 999; index++) {
         if (!confirmacao){
             index = 999;
 }
+}
+
+function removerItens () {
+	var negacao = confirm ("Você quer remover algum item?")
+	if (negacao) {
+		const remocao = prompt ("Diga qual item você quer remover")
+		let indexArray;
+		console.log (remocao);
+		console.log (frutas.indexOf(remocao))
+		if (frutas.indexOf(remocao) != -1) {
+			indexArray = frutas.indexOf(remocao);
+			frutas.splice(indexArray,indexArray+1);
+		}
+		else if (laticinios.indexOf(remocao) != -1) {
+			indexArray = laticinios.indexOf(remocao);
+			laticinios.splice(indexArray,indexArray+1);
+		}
+		else if (doces.indexOf(remocao) != -1) {
+			indexArray = doces.indexOf(remocao);
+			doces.splice(indexArray,indexArray+1);
+		}else {
+			alert ("Valor não encontrado");
+		}
+	}
 }
 
 alert (`A lista de compras ficou assim:
