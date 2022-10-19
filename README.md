@@ -49,7 +49,7 @@ Status: Feito
 Status: Feito
 ```
 
-> Dia: 5
+> Dia: 6
 
 <h2>Remoção de arrays </h2>
 
