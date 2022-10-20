@@ -58,3 +58,13 @@ Status: Feito
 Status: Feito
 
 ```
+
+> Dia: 7
+
+<h2>Funções em javascript </h2>
+
+```
+
+Status: Em andamento
+
+```
