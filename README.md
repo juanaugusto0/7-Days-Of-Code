@@ -65,6 +65,6 @@ Status: Feito
 
 ```
 
-Status: Em andamento
+Status: Feito
 
 ```
